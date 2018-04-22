@@ -1,0 +1,22 @@
+{
+  "name": "clone1",
+  "version": "1.0.0",
+  "description": "Tony Robbins site clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fi7/clone1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fi7/clone1/issues"
+  },
+  "homepage": "https://github.com/fi7/clone1#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  }
+}
