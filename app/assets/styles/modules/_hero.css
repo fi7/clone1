@@ -1,0 +1,30 @@
+.hero {
+  position: relative;
+
+  &__text-content {
+    position: absolute;
+    top: 50%; /*to center verticaly*/
+    left: 0;
+    width: 100%; /*to center horizontaly*/
+    text-align: center; /*to center horizontaly*/
+    transform: translateY(-50%); /*to center verticaly*/
+  }
+
+  &__title {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0;
+  }
+
+  &__description {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1.4px;
+    margin-bottom: 3rem;
+  }
+
+
+}
+
