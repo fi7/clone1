@@ -4,4 +4,18 @@
   text-decoration: none;
   padding: 0.8rem 1rem;
   display: inline-block;
+  font-size: 1.3rem;
+
+  @mixin atSmall {
+    font-size: 1.8rem;
+  }
+
+  @mixin atMedium {
+    font-size: 2rem;
+  }
+
+  @mixin atLarge {
+    font-size: 3rem;
+  }
+
 }
