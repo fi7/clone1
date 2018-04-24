@@ -34,10 +34,10 @@ video {
     width: 100%; /*to center horizontaly*/
     text-align: center; /*to center horizontaly*/
     -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+            transform: translateY(-50%); /*to center verticaly*/
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
-
-/*to center verticaly*/
 
 @media (min-width: 530px) {
 
@@ -47,18 +47,18 @@ video {
   }
 
 .hero__title {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     color: #fff;
-    margin-bottom: 0;
+    margin-bottom: 3rem;
 
   }
 
 @media (min-width: 530px) {
 
 .hero__title {
-      font-size: 4rem;
-      margin-bottom: 4rem
+      font-size: 6.5rem;
+      margin-bottom: 5rem
 
   }
   }
@@ -66,7 +66,7 @@ video {
 @media (min-width: 800px) {
 
 .hero__title {
-      font-size: 8rem
+      font-size: 7.5rem
 
   }
   }
@@ -74,13 +74,13 @@ video {
 @media (min-width: 1200px) {
 
 .hero__title {
-      font-size: 12rem
+      font-size: 8rem
 
   }
   }
 
 .hero__description {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #fff;
     letter-spacing: 1.4px;
@@ -90,23 +90,21 @@ video {
 @media (min-width: 530px) {
 
 .hero__description {
-      font-size: 1.5rem;
-      margin-bottom: 4rem
+      font-size: 2.2rem
   }
   }
 
 @media (min-width: 800px) {
 
 .hero__description {
-      font-size: 2.3rem;
-      margin-bottom: 4rem
+      font-size: 2.3rem
   }
   }
 
 @media (min-width: 1200px) {
 
 .hero__description {
-      font-size: 4rem;
+      font-size: 3rem;
       margin-bottom: 6rem
   }
   }
@@ -144,3 +142,9 @@ video {
 
 }
   }
+
+.container {
+  width: 80%;
+  max-width: 120rem;
+  margin: 0 auto;
+}

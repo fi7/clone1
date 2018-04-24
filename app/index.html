@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Tony Robbins</title>
+  <title>Clone 1</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
   <link rel="stylesheet" type="text/css" media="screen" href="./temp/styles/main.css" />
@@ -84,15 +84,25 @@
 
 
 <section class="hero">
-  <video class="hero-video" autoplay loop>
-    <source src="./assets/videos/708213662.mp4" type="video/mp4">
-  </video>
 
+  <picture>
+
+    <source media="(min-width: 1380px)" srcset="./assets/images/hero--large.jpg 1920w, ./assets/images/hero--large-hi-dpi.jpg 3840w">
+
+    <source media="(min-width: 990px)" srcset="./assets/images/hero--medium.jpg 1380w, ./assets/images/hero--medium-hi-dpi.jpg 2760w">
+
+    <source media="(min-width: 640px)" srcset="./assets/images/hero--small.jpg 990w, ./assets/images/hero--small-hi-dpi.jpg 1980w">
+
+    <img srcset="./assets/images/hero--smaller.jpg 640w, ./assets/images/hero--smaller-hi-dpi.jpg 1280w" alt="Coastal view">
+
+  </picture>
+  
   <div class="hero__text-content">
     <h1 class="hero__title">TRANSFORM YOUR LIFE</h1>
     <h2 class="hero__description">CLOSE THE GAP BETWEEN WHERE YOU ARE TODAY – AND WHERE YOU WANT TO BE</h2>
     <p><a href="#" class="btn">Take your free life assessment</a></p>
   </div>
+
 </section>
 
 
