@@ -12,10 +12,6 @@
     padding-left: 2rem;
     
 
-
-    @mixin atSmall {
-      top: 50%;
-    }
   }
 
   &__title {
@@ -35,6 +31,10 @@
 
     @mixin atLarge {
       font-size: 8rem;
+    }
+
+    @mixin atBig {
+      font-size: 13rem;
     }
 
   }
@@ -59,6 +59,11 @@
     @mixin atLarge {
       font-size: 3rem;
       margin-bottom: 6rem;
+    }
+
+    @mixin atBig {
+      font-size: 3.7rem;
+      margin-bottom: 8rem;
     }
   }
 

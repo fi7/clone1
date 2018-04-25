@@ -2,20 +2,34 @@
   background-color: $mainBlue;
   color: #FFF;
   text-decoration: none;
-  padding: 0.8rem 1rem;
   display: inline-block;
-  font-size: 1.3rem;
+  
+  &--large {
+    padding: 0.8rem 1rem;
+    font-size: 1.3rem;
 
-  @mixin atSmall {
-    font-size: 1.8rem;
-  }
 
-  @mixin atMedium {
-    font-size: 2rem;
-  }
+    @mixin atSmall {
+      font-size: 1.8rem;
+    }
 
-  @mixin atLarge {
-    font-size: 3rem;
+    @mixin atMedium {
+      padding: 1.3rem 1.8rem;
+      font-size: 2rem;
+      
+    }
+
+    @mixin atLarge {
+      font-size: 3rem;
+    }
+
+    @mixin atBig {
+      font-size: 4rem;
+      padding: 1.4rem 1.7rem;
+    }
+
   }
+  
+
 
 }

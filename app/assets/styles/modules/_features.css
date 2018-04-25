@@ -1,0 +1,77 @@
+.features {
+  
+  
+  .feature {
+    position: relative;
+
+    &__img {
+      display: block;
+      width: 100%;
+    }
+
+    &__content {
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -20%);
+      text-align: center;
+      color: #FFF;
+      
+    }
+
+    &__title {
+      font-size: 1.7rem;
+      font-weight: bold;
+
+      @mixin betweenSmall {
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
+      }
+
+      @mixin atSmall{
+        font-size: 3rem;
+      }
+
+    }
+
+    &__description {
+      font-size: 1.3rem;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+
+      @mixin betweenSmall {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        margin-bottom: 3rem;
+      }
+
+      @mixin atSmall {
+        font-size: 1.7rem;
+         margin-bottom: 5rem;
+      }
+    }
+
+    &__btn {
+      font-size: 1.3rem;
+      padding: 0.8rem 1.2rem;
+      border: 2px solid #FFF;
+      text-decoration: none;
+      color: #FFF;
+
+      @mixin betweenSmall {
+        font-size: 1.7rem;
+        padding: 0.8rem 1.2rem;
+      }
+
+      @mixin atSmall {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  /* .feature:focus,
+  .feature:hover {
+    background-color: red;
+  } */
+
+}
