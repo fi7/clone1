@@ -1,0 +1,35 @@
+.about {
+
+
+  &__image {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  &__content {
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    font-size: 1.4rem;
+    color: rgb(180, 176, 176);
+  }
+
+  &__description {
+    font-size: 1.5rem;
+  }
+
+  &__btn {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: $mainBlue;
+    font-weight: bold;
+    font-style: italic;
+  }
+}

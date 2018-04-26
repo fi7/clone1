@@ -176,6 +176,19 @@ video {
   margin: 0 auto;
 }
 
+.page-section {
+  padding: 3rem 0;
+
+}
+
+@media (min-width: 50em) {
+
+.page-section {
+  padding: 4.5rem 0
+
+}
+  }
+
 .sign-up {
   padding: 2rem;
   text-align: center;
@@ -220,7 +233,7 @@ video {
   }
 
 .sign-up__btn {
-    padding: 0.8rem 1.3rem;
+    padding: 1.5rem 1.9rem;
     font-size: 1.3rem;
   }
 
@@ -361,4 +374,111 @@ video {
 .features .feature__btn {
         font-size: 1.7rem
     }
+  }
+
+.about__image {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+.about__content {
+    text-align: center;
+  }
+
+.about__title {
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+.about__subtitle {
+    font-size: 1.4rem;
+    color: rgb(180, 176, 176);
+  }
+
+.about__description {
+    font-size: 1.5rem;
+  }
+
+.about__btn {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #14AECF;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+.testimonials {
+  position: relative;
+  background: url(../../assets/images/section-testimonials-bg.jpg) 50% 0%;
+  height: 90vh;
+}
+
+.testimonials__person {
+    position: absolute;
+  }
+
+.testimonials__image {
+    display: inline-block;
+    width: 33.33%;
+  }
+
+.testimonials__content {
+    -webkit-transform: translateY(30%);
+            transform: translateY(30%);
+    text-align: center;
+  }
+
+.testimonials__title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+.testimonials__subtitle {
+    margin-top: 0.5em;
+    color: rgb(180, 179, 179);
+    font-size: 1.5rem;
+  }
+
+.testimonials__description {
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 200;
+    margin-bottom: 1.5em;
+  }
+
+.testimonials__btn {
+    font-size: 2rem;
+    color: #14AECF;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 300;
+  }
+
+.feature-mobile__image {}
+
+.feature-mobile__content {
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+.feature-mobile__subtitle {
+    font-size: 1.3rem; 
+    color: rgb(136, 132, 132);
+    font-style: italic;
+  }
+
+.feature-mobile__title {
+    font-size: 2rem;
+  }
+
+.feature-mobile__description {
+    font-size: 1.3rem;
+  }
+
+.feature-mobile__btn {
+    font-size: 1.3rem;
+    padding: 1.3rem 1.8rem;
   }
